@@ -1,0 +1,21 @@
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+  @media (min-width: 992px) {
+    width: 256px;
+    height: 100%;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+#page-content {
+  @media (min-width: 992px) {
+    padding-left: 16rem;
+  }
+}
